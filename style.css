@@ -1,0 +1,26 @@
+body {
+  margin: 30px;
+  background-color: #e5cced;
+}
+
+img {
+  width: 20%;
+  height: 20%;
+  float: right;
+  margin: 70px;
+}
+
+button {
+  background-color: #b9c0ed;
+  padding: 3px;
+  margin: 5px;
+}
+
+input {
+  padding: 3px;
+  margin: 5px;
+}
+
+.text {
+  font-size: 120%;
+}

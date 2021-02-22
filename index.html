@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Circle Calculator</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <h1>Calculator for the circumference and area of a circle</h1>
+    <div>
+      <img src="./images/circumference.png" alt="circumference of circle">
+      <p>Enter a number to be the diameter of the   circle</p>
+      <input type="text" id="number">
+      <button id="area">Area</button>
+      <button id="circumference">Circumference</button>
+    </div>
+    <div class="text">
+      <p>A = <b id="answer-area">π(d/2)^2</b></p>
+      <p>C = <b id="answer-circumference">πd</b></p>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
